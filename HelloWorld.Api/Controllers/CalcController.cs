@@ -11,10 +11,10 @@ public class CalcController : ControllerBase
     [HttpGet]
     public int Get(int number)
     {
-        var calcService = new CalcService();
+        var calcService = new CalcService(); 
 
-        var result = calcService.Pow(number);
+        var result = calcService.Pow(number); 
 
-        return result;
-    }
+        return result; 
+    } 
 }
