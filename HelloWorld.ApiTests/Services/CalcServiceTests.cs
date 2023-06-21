@@ -9,7 +9,7 @@ public class CalcServiceTests
     public void PowTest()
     {
         //Arrange
-        var number = 2;
+        var number = 1;
         var expected = 4;
         var calcService = new CalcService(); 
 
